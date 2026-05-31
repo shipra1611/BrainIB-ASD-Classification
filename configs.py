@@ -22,8 +22,8 @@ ABIDE_PIPELINE       = "cpac"
 ABIDE_STRATEGY       = "filt_global"          # band-pass filtered, global signal regressed
 ABIDE_DERIVATIVES    = ["func_preproc"]
 ABIDE_N_SUBJECTS     = None                   # None = all 871; set e.g. 100 for quick test
-ATLAS                = "aal"                  # AAL atlas → 116 ROIs
-N_ROIS               = 116
+ATLAS                = "schaefer100"                  # AAL atlas → 116 ROIs
+N_ROIS               = 100
 CONNECTIVITY_KIND    = "correlation"          # pearson correlation as FC measure
 
 # ── Graph construction ─────────────────────────────────────────────────────
